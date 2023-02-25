@@ -189,7 +189,7 @@ public class AdminLogic
     }
 
 
-    public void DepositToCustomerAccount(int customerId, decimal amount)
+    public void Deposit(int customerId, decimal amount)
     {
         var context = atmDbContextFactory.CreateDbContext(null);
 

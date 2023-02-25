@@ -1,0 +1,5 @@
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Interface\obj\Debug\net6.0\EFCoreATM_Interface.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Interface\obj\Debug\net6.0\EFCoreATM_Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Interface\obj\Debug\net6.0\EFCoreATM_Interface.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Interface\obj\Debug\net6.0\EFCoreATM_Interface.AssemblyInfo.cs
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Interface\obj\Debug\net6.0\EFCoreATM_Interface.csproj.CoreCompileInputs.cache

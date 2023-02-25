@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\bin\Debug\net6.0\EFCoreATM_Data.deps.json
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\bin\Debug\net6.0\EFCoreATM_Data.runtimeconfig.json
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\bin\Debug\net6.0\EFCoreATM_Data.dll
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\bin\Debug\net6.0\EFCoreATM_Data.pdb
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\obj\Debug\net6.0\EFCoreATM_Data.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\obj\Debug\net6.0\EFCoreATM_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\obj\Debug\net6.0\EFCoreATM_Data.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\obj\Debug\net6.0\EFCoreATM_Data.AssemblyInfo.cs
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\obj\Debug\net6.0\EFCoreATM_Data.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\obj\Debug\net6.0\EFCoreATM_Data.dll
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\obj\Debug\net6.0\refint\EFCoreATM_Data.dll
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\obj\Debug\net6.0\EFCoreATM_Data.pdb
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\obj\Debug\net6.0\EFCoreATM_Data.genruntimeconfig.cache
+C:\Users\HP\Desktop\NewM\EFCoreATM_Interface\EFCoreATM_Data\obj\Debug\net6.0\ref\EFCoreATM_Data.dll
