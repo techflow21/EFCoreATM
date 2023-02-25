@@ -83,19 +83,19 @@ public class AdminLogic
     {
         var context = atmDbContextFactory.CreateDbContext(null);
 
-        Console.WriteLine("Enter First Name:");
+        Console.WriteLine("\n\t Enter First Name: \n\t ");
         string firstName = Console.ReadLine();
 
-        Console.WriteLine("Enter Last Name:");
+        Console.WriteLine("\n\t Enter Last Name:\n\t ");
         string lastName = Console.ReadLine();
 
-        Console.WriteLine("Enter Email Address:");
+        Console.WriteLine("\n\t Enter Email Address:\n\t ");
         string email = Console.ReadLine();
 
-        Console.WriteLine("Enter Address:");
+        Console.WriteLine("\n\t Enter Address:\n\t ");
         string address = Console.ReadLine();
 
-        Console.WriteLine("Enter Phone Number:");
+        Console.WriteLine("\n\t Enter Phone Number:\n\t ");
         string phone = Console.ReadLine();
 
         string accountNumber;
@@ -125,7 +125,7 @@ public class AdminLogic
         context.Customers.Add(customer);
         context.SaveChanges();
 
-        Console.WriteLine($"Customer {firstName} {lastName} with Account Number {accountNumber} has been registered successfully.");
+        Console.WriteLine($"\n\t Customer {firstName} {lastName} with Account Number {accountNumber} has been registered successfully.");
     }
 
 
@@ -162,6 +162,7 @@ public class AdminLogic
 
         Console.Write("\n\t Enter updated email address (leave empty to skip): \n\t ");
         string email = Console.ReadLine();
+
         if (!string.IsNullOrEmpty(email))
         {
             customer.Email = email;
@@ -226,7 +227,7 @@ public class AdminLogic
         Console.WriteLine("\n\t List of all registered customers:");
         foreach (var customer in customers)
         {
-            Console.WriteLine($"- {customer.FirstName} {customer.LastName} ({customer.Email})");
+            Console.WriteLine($"\n\t {customer.FirstName} {customer.LastName} ({customer.Email})");
         }
     }
 
@@ -242,7 +243,7 @@ public class AdminLogic
         Console.WriteLine("\n\t List of all transactions:");
         foreach (var transaction in transactions)
         {
-            Console.WriteLine($"- {transaction.TransactionType} of {transaction.TransactedAmount:C} on {transaction.TransactionDate:MM/dd/yyyy} between {transaction.Sender} and {transaction.Receiver}");
+            Console.WriteLine($"\n\t {transaction.TransactionType} of {transaction.TransactedAmount:C} on {transaction.TransactionDate:MM/dd/yyyy} between {transaction.Sender} and {transaction.Receiver}");
         }
     }
 
