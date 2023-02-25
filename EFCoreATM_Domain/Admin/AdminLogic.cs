@@ -52,12 +52,13 @@ public class AdminLogic
         {
             atm.AtmBalance += amount;
             atm.LoadDate = DateTime.Now;
+
             context.SaveChanges();
-            Console.WriteLine($"ATM Loaded with ${amount} successfully.");
+            Console.WriteLine($"\n\t ATM Loaded with ${amount} successfully.");
         }
         else
         {
-            Console.WriteLine("ATM not found. Try again later.");
+            Console.WriteLine("\n\t ATM not found. Try again later.");
         }
     }
 
@@ -69,11 +70,11 @@ public class AdminLogic
         var atm = context.AtmMachine.FirstOrDefault();
         if (atm != null)
         {
-            Console.WriteLine($"ATM Balance: ${atm.AtmBalance}");
+            Console.WriteLine($"\n\t ATM Balance: ${atm.AtmBalance}");
         }
         else
         {
-            Console.WriteLine("ATM not found. Try again later.");
+            Console.WriteLine("\n\t ATM not found. Try again later.");
         }
     }
 
