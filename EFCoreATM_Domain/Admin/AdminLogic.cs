@@ -14,7 +14,7 @@ public class AdminLogic
     {
         var context = atmDbContextFactory.CreateDbContext(null);
 
-        Console.WriteLine("Enter Username:");
+        Console.WriteLine("\n\t Enter Username:");
         string username = Console.ReadLine();
 
         Console.WriteLine("Enter Password:");
@@ -23,8 +23,9 @@ public class AdminLogic
         var admin = context.Admins.FirstOrDefault(a => a.UserName == username && a.Password == password);
         if (admin != null)
         {
-            Console.WriteLine("Login Successful!");
+            Console.WriteLine("\n\t Login Successful!");
             currentAdmin = admin;
+
             //ShowAdminMenu();
         }
         else
