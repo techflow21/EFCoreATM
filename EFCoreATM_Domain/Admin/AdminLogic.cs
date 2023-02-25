@@ -40,11 +40,11 @@ public class AdminLogic
     {
         var context = atmDbContextFactory.CreateDbContext(null);
 
-        Console.WriteLine("Enter Amount to Load:");
+        Console.WriteLine("\n\t Enter Amount to Load: \n\t ");
         decimal amount;
         while (!decimal.TryParse(Console.ReadLine(), out amount))
         {
-            Console.WriteLine("Invalid input. Enter a valid Amount:");
+            Console.WriteLine("\n\t Invalid input. Enter a valid Amount:\n\t ");
         }
 
         var atm = context.AtmMachine.FirstOrDefault();
