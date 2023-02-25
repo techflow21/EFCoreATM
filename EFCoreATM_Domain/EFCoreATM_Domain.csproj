@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Admin\" />
-    <Folder Include="Customer\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\EFCoreATM_Data\EFCoreATM_Data.csproj" />
   </ItemGroup>
 
