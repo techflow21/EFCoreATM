@@ -1,1 +1,2 @@
 # EFCoreATM
+This is an implementation of a Console application with EF Core as ORM with MS SQL as database.
