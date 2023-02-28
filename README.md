@@ -4,5 +4,3 @@ It mimics the operations possible with the use of ATM.
 We have different 4 Entities there in. These are:
 - Admin
 - Customer
-- AtmMachine
-- Transaction
